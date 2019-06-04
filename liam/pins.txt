@@ -1,0 +1,29 @@
+
+Battery LIION
+Reads analouge level from socpin A2. -> Vin voltage -> pot. 
+
+In charge mode while dockpin D5 is high. Charge input / 4. 
+
+
+
+D5 Dock
+
+D8 Bumper to GND. Low when bumped.
+Pullup to high
+
+D9 Lift sensor to GND, Low when lifted.
+Pullup to high
+
+
+
+Checki diode D3. Should be zener?
+
+//#define __Bumper__    
+
+// If you have a lift sensor connection to front wheel (connected to pin9), uncomment this line
+//#define __Lift_Sensor__
+
+// Do you have a Sensor? If so, uncomment one of these lines
+//#define __MS5883L__
+//#define __MS9150__
+
