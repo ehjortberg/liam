@@ -1,7 +1,7 @@
 
 #define CUTTER_MOTOR_TYPE NIDEC
 
-#define BATTERY_TYPE NIMH
+#define BATTERY_TYPE LIION
 
 #define DEBUG_ENABLED true 
 
@@ -25,7 +25,6 @@ const int NUMBER_OF_SENSORS = 2;  // Number of BWF sensors can be 1-4 depending 
 #define OUTSIDE_BWF         5
 
 #define GO_BACKWARD_UNTIL_INSIDE
-
 
 #define __Bumper__
 
